@@ -48,6 +48,7 @@ python3-dev
 radare2
 rdesktop
 remmina
+rlwrap
 seclists
 spiderfoot
 sqlmap
