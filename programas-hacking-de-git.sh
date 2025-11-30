@@ -15,8 +15,6 @@ printf "\n-> INSTALANDO GitDumper\n"
 git clone https://github.com/internetwache/GitTools.git
 printf "\n-> INSTALANDO GitDorks\n"
 git clone https://github.com/techgaun/github-dorks && cd github-dorks && unzip master.zip && cd github-dorks-master && pip install . && cd ../..
-printf "\n-> INSTALANDO LAZY RECON\n"
-sudo git clone https://github.com/nahamsec/bbht.git && cd bbht && sudo chmod +x install.sh && ./install.sh && cd ..
 printf "\n-> DESCARGANDO LINPEAS\n"
 wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh && chmod +x linpeas.sh
 printf "\n-> INSTALANDO FAST-GOOGLE-DORKS-SCAN\n"
